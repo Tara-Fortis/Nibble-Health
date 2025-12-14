@@ -14,7 +14,6 @@ body {
     margin: 0;
     background-color: #330066;
 }
-
 img[src="images/Hero-Image.jpg"] {
     /* outline: dashed 2px pink; */
     min-height: 100%;
@@ -24,6 +23,8 @@ img[src="images/Hero-Image.jpg"] {
     top: 0;
     left: 0;
     transition: transform 0.1s ease;
+    z-index: -1;
+    grid-area: logo;
 }
 
 img[src="images/Hero-Image.jpg"]:active {
